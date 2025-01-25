@@ -12,7 +12,7 @@ public class p1 {
     
     }
 
-    public class CheckSorted {
+    
     public static boolean isSorted(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {
             if (arr[i] > arr[i + 1]) { // Compare adjacent elements
@@ -23,13 +23,13 @@ public class p1 {
     }
 
    
-}
+
 
     public static void main(String[] args) {
         int arr[] = {1,2,5,2,6,7,8};
         printlargest(arr, arr.length);
 
-        int[] arr = {1, 2, 3, 4, 5};
+        
         System.out.println(isSorted(arr)); // Output: true
     }
 }
