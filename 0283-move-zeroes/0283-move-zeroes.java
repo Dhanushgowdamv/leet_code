@@ -1,4 +1,4 @@
-class Solution {
+class Solution {// tc is o(n) and sc is O(1)
     public void moveZeroes(int[] nums) {
         int slow = 0;
         for(int fast=0 ; fast < nums.length;fast++){
